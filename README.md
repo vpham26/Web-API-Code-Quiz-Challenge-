@@ -66,6 +66,11 @@ Repository contains multiple descriptive commit messages.
 
 Repository contains a high-quality README file with description, screenshot, and link to deployed application.
 
+***
+Mock-Up
+
+![04-web-apis-homework-demo](https://user-images.githubusercontent.com/78709516/150623384-0d4e8b33-a249-4db8-b9d6-0482815d51a9.gif)
+
 ## Table of Contents (Optional)
 
 -[Installation](#installation)
