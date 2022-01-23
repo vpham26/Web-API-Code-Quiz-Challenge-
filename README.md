@@ -94,7 +94,7 @@ Mock-Up
  
 ## Usage 
  
-1. Click on the link to the code-quiz-challenge <>
+1. Click on the link to the code-quiz-challenge <https://vpham26.github.io/Web-API-Code-Quiz-Challenge-/>
   
 2. Click start quiz 
   
@@ -102,11 +102,19 @@ Mock-Up
 
 4. Answer before time runs out
 
-5. Put initial to be on the high-score board. 
+5. Put initial to be on the high-score board 
 
 ## Credits
  
-Did not collaborate with anyone.
+Did not collaborate with anyone
+ 
+Used info from:
+ 
+ https://stackoverflow.com
+ 
+ https://www.w3schools.com/js/default.asp
+ 
+ https://www.w3schools.com/css/default.asp
  
 ## License
 
