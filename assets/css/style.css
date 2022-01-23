@@ -54,7 +54,7 @@ div .p-style-1 {
   padding-block: 10px;
  
 }
-/* HIDDEN HTML ELEMENTS COMPONETS*/
+/* HIDDEN HTML ELEMENTS COMPONENTS*/
 section .wrapper{
   display: grid;
   grid-template-rows: 1fr, 2fr, 1fr;

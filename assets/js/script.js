@@ -1,4 +1,4 @@
-// DECOLRATIONS
+// DECLARATIONS
 
 // VAR FOR TIMER   (global) 
 var time = document.querySelector(".timer");
@@ -29,7 +29,7 @@ const highscoresEl = document.querySelector("#high-scores");
 let scoreListEl = document.querySelector(".score-list");
 let scoreList = [];
 
-// CALL OUT THE ANSWER CLASS BUTTON ASSHOLE
+// CALL OUT THE ANSWER CLASS BUTTON
 const ansBtn = document.querySelectorAll("button.answer-btn")
 
 // VAR SUBMITINT, GO, CLEAR, VIEW
@@ -52,27 +52,27 @@ const questions = [
     {
         question: "Inside which HTML element do we put the JavaScript?",
         answers: ["1. <js>", "2. <scripting>", "3. <script>", "4. <javascript>"],
-        correctAnswer: "3"
+        correctAnswer: "2"
     },
     {
         question: "How do you write 'Hello World' in an alert box?",
         answers: ["1. alertBox('Hello World');", "2. msg('Hello World');", "3. msgBox('Hello World');", "4. alert('Hello World');"],
-        correctAnswer: "4"
+        correctAnswer: "3"
     },
     {
         question: "How to write an IF statement in JavaScript?",
         answers: ["1. if i == 5 then", "2. if i = 5 then", "3. if (i == 5)", "4. if i = 5"],
-        correctAnswer: "3"
+        correctAnswer: "2"
     },
     {
         question: "How does a FOR loop start?",
         answers: ["1. for (i <= 5; i++)", "2. for (i = 0; i <= 5)", "3. for i = 1 to 5", "4. for (i = 0; i <= 5; i++)"],
-        correctAnswer: "4"
+        correctAnswer: "3"
     },
     {
         question: "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
         answers: ["1. if(i<>5)", "2. if i=!5 then", "3. if(i!=5)", "4. if i <>5"],
-        correctAnswer: "3"
+        correctAnswer: "2"
     }
 ];
 
@@ -182,7 +182,7 @@ function displayScores() {
     // Parsing the JSON string to an object
     let storedScoreList = JSON.parse(localStorage.getItem("scoreList"));
 
-    // WHEN RETREIVED FROM LOCAL, ARRAY
+    // WHEN RETRIEVED FROM LOCAL, ARRAY
     if (storedScoreList !== null) {
         scoreList = storedScoreList;
     }
@@ -198,7 +198,7 @@ function clearScores() {
 // Start timer and display first question when click start quiz
 start.addEventListener("click", startQuiz);
 
-// CHECK ANSER LISTENER EVENT
+// CHECK ANSWER LISTENER EVENT
 ansBtn.forEach(item => {
     item.addEventListener('click', checkAnswer);
 });
@@ -206,7 +206,7 @@ ansBtn.forEach(item => {
 // ADDING A SCORE EVENT
 submitScrBtn.addEventListener("click", addScore);
 
-// GO BACK LISTENER EVENT FUNCTIN 
+// GO BACK LISTENER EVENT FUNCTION 
 goBackBtn.addEventListener("click", function () {
     highscoresEl.style.display = "none";
     codersIntro.style.display = "block";
@@ -227,6 +227,6 @@ viewScrBtn.addEventListener("click", function () {
     } 
     
     else {
-        return alert("Hey. Take Quiz. There is No High Score.");
+        return alert("Take Quiz. Be the highest score.");
     }
 });
